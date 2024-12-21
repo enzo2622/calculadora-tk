@@ -73,7 +73,7 @@ class Calculadora(object):
     @staticmethod
     def _load_settings():
         """Utilitário para carregar o arquivo de confirgurações da calculadora."""
-        with open('./app/settings/settings.json', mode='r', encoding='utf-8') as f:
+        with open(r"C:\Users\enzoc\OneDrive\Documentos\GitHub\calculadora-tk\app\settings\settings.json", mode='r', encoding='utf-8') as f:
             settings = json_load(f)
         
         return settings
